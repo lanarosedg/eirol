@@ -6,8 +6,8 @@
 
 .parentContainer1 {
     display: grid;
-    grid-template-columns: 100px 50px 450px auto;
-    grid-template-rows: 350px 60px 40px 90px 100px auto; 
+    grid-template-columns: 80px 80px 650px auto;
+    grid-template-rows: 350px 100px 40px 90px 100px auto; 
     background-image: url('./assets/firstContainerPhoto.jpg');
     width: 100%;
     height: 725px;
@@ -18,7 +18,7 @@
 .elevate {
     display: grid;
     grid-area: 2 / 2 / 3 / 4;
-    font-size: 48px;
+    font-size: 72px;
     font-weight: bold;
     color: white;
 }
@@ -26,7 +26,7 @@
 
 .with {
     grid-area: 3 / 2 / 4 / 3;
-    font-size: 24px;
+    font-size: 32px;
     color: white
 }
 
@@ -55,4 +55,82 @@
 .contactUs:hover {
     background-color: #0F5B7A;
     cursor: pointer;
+}
+
+.parentContainer2 {
+    height: 300px;
+    line-height: 6ch;
+    color: #073057;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner {
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.vision {
+    font-size: 90px;
+}
+
+.partnerBrands {
+    color: #073057;
+    font-style: italic;
+}
+
+.partnerBrands:hover {
+    letter-spacing: 4px;
+}
+
+.parentContainer3 {
+    height: 550px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products1 {
+    height: 438px;
+    display: center;
+}
+
+.products1:hover {
+    cursor: pointer;
+}
+
+.parentContainer4 {
+    height: 1300px;
+    display: grid;
+    grid-template-rows: 235px 530px 235px 300px;
+    grid-template-columns: 100px auto 625px;
+}
+
+.firstpc3 {
+    background-color: #073057;
+    height: 400px;
+    grid-area: 1 / 1 / 4 / 4;
+    display: grid;
+}
+
+.intro {
+    display: grid;
+    grid-area: 2 / 2 / 3 / 3;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    box-shadow: #073057;
+}
+
+.introText {
+    font-size: 32px;
+}
+
+.hand {
+    height: 862px;
+    width: 625px;
+    grid-area: 2 / 3 / 5 / 4;
 }
