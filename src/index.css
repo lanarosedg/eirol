@@ -1,0 +1,58 @@
+* {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.parentContainer1 {
+    display: grid;
+    grid-template-columns: 100px 50px 450px auto;
+    grid-template-rows: 350px 60px 40px 90px 100px auto; 
+    background-image: url('./assets/firstContainerPhoto.jpg');
+    width: 100%;
+    height: 725px;
+    background-size: cover;
+    background-position: center;
+}
+
+.elevate {
+    display: grid;
+    grid-area: 2 / 2 / 3 / 4;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.with {
+    grid-area: 3 / 2 / 4 / 3;
+    font-size: 24px;
+    color: white
+}
+
+.logo {
+    width: 263px;
+    height: 134px;
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.contactUs {
+    grid-area: 5 / 3 / 6 / 4;
+    font-size: 18px;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 50px;
+    color: white;
+    background-color: #1679AB;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.contactUs:hover {
+    background-color: #0F5B7A;
+    cursor: pointer;
+}
