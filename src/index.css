@@ -192,3 +192,60 @@
     color: #F875AA;
     font-weight: bold;
 }
+
+.parentContainer7 {
+    height: 430px;
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-rows: auto 110px 85px auto;
+    grid-template-columns: auto 270px 50px 150px 300px 150px auto;
+}
+
+.footerLogoImage {
+    width: 204px;
+    height: 104px;
+    display: grid;
+    grid-area: 2 / 2 / 3 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.book {
+    width: 220px;
+    height: 40px;
+    border-style: none;
+    background-color: #B9E2FF;
+    color: #073057;
+    border-radius: 20px;
+    display: grid;
+    grid-area: 3 / 2 / 4 / 3;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.firstFooter {
+    display: grid;
+    grid-area: 2 / 4 / 4 / 5;
+    gap: 10px;
+    align-self: center;
+}
+
+.firstFooter a {
+    text-decoration: none;
+    color: #073057;
+    margin: 0;
+}
+
+.secondFooter {
+    display: grid;
+    grid-area: 2 / 5 / 4 / 6;
+    gap: 10px;
+    align-self: center;
+}
+
+.secondFooter a {
+    text-decoration: none;
+    color: #073057;
+    margin: 0;
+}

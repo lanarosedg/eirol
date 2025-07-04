@@ -92,6 +92,38 @@ return (
         “Crafted Clean. Naturally Yours—Partner with Our <span className='pink'>Expert Chemist</span> to <br />
         <span className='pink'>Formulate Your Signature Soap.</span>”
     </div>
+        <div className="parentContainer7">
+            <img 
+                src={logo}
+                alt="" 
+                className="footerLogoImage" 
+            />
+            <button className="book">
+                Book an appointment
+            </button>
+            <div className="firstFooter">
+                <a href="">
+                    About us
+                </a>    
+                <a href="">
+                    Our Partners
+                </a>
+                <a href="">
+                    Offers
+                </a>
+            </div>
+            <div className="secondFooter">
+                <a href="">
+                    Products
+                </a>    
+                <a href="">
+                    Privacy Policy
+                </a>
+                <a href="">
+                    FDA Approved Verification
+                </a>
+            </div>
+        </div>
     </>
 )
 }
