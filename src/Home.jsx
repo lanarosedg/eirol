@@ -5,6 +5,8 @@ import hand from './assets/hand.png';
 import soap from './assets/soap.png';
 import leftArrow from './assets/leftArrow.png';
 import rightArrow from './assets/rightArrow.png';
+import gmail from './assets/gmail.png';
+import phone from './assets/phone.png';
 
 function Home () {
 return (
@@ -123,6 +125,24 @@ return (
                     FDA Approved Verification
                 </a>
             </div>
+            <div className="thirdFooter">
+                Connect with us!
+                <div className="connectLogo">
+                    <img 
+                        src={gmail}
+                        alt="" 
+                        className="gmail"
+                    /> &nbsp; &nbsp;
+                    <img 
+                        src={phone}
+                        alt="" 
+                        className="phone" 
+                    />
+                </div>
+            </div>
+        </div>
+        <div className="parentContainer8">
+            © 2024 Eirol Cosmetics Manufacturing
         </div>
     </>
 )

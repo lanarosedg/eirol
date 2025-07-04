@@ -249,3 +249,28 @@
     color: #073057;
     margin: 0;
 }
+
+.thirdFooter {
+    display: grid;
+    grid-area: 2 / 6 / 3 / 7;
+    align-self: end;
+}
+
+.gmail {
+    width: 30px;
+    height: 30px;
+}
+
+.phone {
+    width: 25px;
+    height: 25px;
+}
+
+.parentContainer8 {
+    height: 30px;
+    background-color: #B9E2FF;
+    color: #073057;
+    font-size: 12px;
+    text-align: center;
+    align-content: center;
+}
